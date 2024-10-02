@@ -4,6 +4,7 @@ import { useDashboardContext } from "../pages/DashboardLayout";
 
 import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
+import Logo from "./Logo";
 
 
 
@@ -21,11 +22,7 @@ const SmallSideBar = () => {
             <FaTimes />
           </button>
           <header>
-            <img
-              src="/src/assets/images/logo.svg"
-              alt="jobify"
-              className="logo"
-            />
+            <Logo />
           </header>
 
           <NavLinks />

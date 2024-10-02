@@ -1,6 +1,7 @@
 import Wrapper from "../assets/wrappers/BigSidebar";
 import NavLinks from "./NavLinks";
 import { useDashboardContext } from "../pages/DashboardLayout";
+import Logo from "./Logo";
 
 
 const BigSideBar = () => {
@@ -16,11 +17,7 @@ const BigSideBar = () => {
       >
         <div className="content">
           <header>
-            <img
-              src="/src/assets/images/logo.svg"
-              alt="jobify"
-              className="logo"
-            />
+            <Logo />
           </header>
           <NavLinks isBigSideBar />
         </div>
