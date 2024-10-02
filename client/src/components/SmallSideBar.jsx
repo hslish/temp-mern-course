@@ -1,7 +1,7 @@
 import { FaTimes } from "react-icons/fa";
 import Wrapper from "../assets/wrappers/SmallSidebar";
 import { useDashboardContext } from "../pages/DashboardLayout";
-import links from "../utils/Links";
+
 import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 
