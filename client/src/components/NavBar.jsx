@@ -15,7 +15,7 @@ const NavBar = () => {
           <FaAlignLeft />
         </button>
         <div>
-          <img src="../assets/images/logo.svg" alt="jobify" className="logo" />
+          <img src="/assets/images/logo.svg" alt="jobify" className="logo" />
           <h4 className="logo-text">dashboard</h4>
         </div>
         <div className="btn-container">
